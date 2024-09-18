@@ -10,6 +10,7 @@ namespace Task_5
     {
         static void Main(string[] args)
         {
+            // Task 5 Stated heare
         }
     }
 }
