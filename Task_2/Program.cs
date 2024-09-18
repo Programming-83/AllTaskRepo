@@ -6,15 +6,17 @@ using System.Threading.Tasks;
 
 namespace Task_2
 {
-    internal class Program
-    {
+     class Program
+    {   
         static void Main(string[] args)
         {
-           for (int i = 1; i<=10; i++)
+            List<int> lt = new List<int> { 12, 3, 54, 67, 9, 98, 4 };
+         List<int>eveno= lt.FindAll(jyoti => (jyoti % 2) == 0);
+            foreach (int jyoti in eveno)
             {
-                Console.WriteLine(i);
+                Console.WriteLine(jyoti);
             }
-           Console.ReadLine();
+            Console.ReadLine();
         }
     }
 }
