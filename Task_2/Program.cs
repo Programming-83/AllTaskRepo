@@ -6,16 +6,27 @@ using System.Threading.Tasks;
 
 namespace Task_2
 {
-     class Program
-    {   
+    class operation
+    {
+        public int calculate(params int[] a)
+        {
+            int s = 0;
+            for (int i = 0; i < a.Length; i++)
+            {
+                s += a[i];
+            }
+            return s;
+        }
+    }
+    class Program
+    {
         static void Main(string[] args)
         {
-            List<int> lt = new List<int> { 12, 3, 54, 67, 9, 98, 4 };
-         List<int>eveno= lt.FindAll(jyoti => (jyoti % 2) == 0);
-            foreach (int jyoti in eveno)
-            {
-                Console.WriteLine(jyoti);
-            }
+            operation op = new operation();
+            int res = op.calculate(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+            int avg = res / 10;
+            Console.WriteLine("Sum =" + res);
+            Console.WriteLine("Average=" + avg);
             Console.ReadLine();
         }
     }
