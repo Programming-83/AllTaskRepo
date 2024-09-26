@@ -51,7 +51,7 @@ class Interface
         {
             Console.WriteLine("Hello");
         }
-       
+        
         int a = 52; // We can not make data member in Interface
          int sum(int a, int b); // You can create not-abstract methode in interface but do't make a body
     }
