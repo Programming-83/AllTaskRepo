@@ -25,3 +25,28 @@
 //     c) Sorted List
 //     d) Stack
 //     e) Queu    
+
+// Q.5 What is Different Between Generic And Non-Generic
+//           Generic                      |                 Non-Generic
+// ------------------------------------------------------------------------------------------------                                       
+// 1. It is Store only Similar Type data      | 1. It Is strore Different Type data                                    
+// 2. In which use KeyValuePair<int ,string>    2. In which use DictionaryEntry in foreachloop                                   |
+//    in foreach Loop                         |
+//                                            |
+//                                            |
+//                                            |
+
+// Q.6 What is Generic 
+// Generic allow to work any data type but once you need to define
+//   >> It helps to improve performance, type safety and code-reuse
+//   >>  You can make to type of Generic :-
+//        a) Generic Class
+//        b) Generic Methode
+// Generic Class
+//  class Employee<T> // T -- type
+//         {
+//              This is Generic Cass you can write Any Latter or word place of T
+//         }
+// 
+// 
+// 
