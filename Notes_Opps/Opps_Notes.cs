@@ -47,12 +47,12 @@ class Interface
     // Interface Support Multiple Inhertance in c#
     interface  Parent // Interface Keyword in used to create interface Class
     {
-        public Parent() // You can not create a controctor in interfce
-        {
-            Console.WriteLine("Hello");
-        }
+        //public Parent() // You can not create a controctor in interfce
+        //{
+        //    Console.WriteLine("Hello");
+        //}
         
-        int a = 52; // We can not make data member in Interface
+       /* int a = 52;*/ // We can not make data member in Interface
          int sum(int a, int b); // You can create not-abstract methode in interface but do't make a body
     }
     

@@ -1,0 +1,25 @@
+﻿
+@ViewData["Data1"]
+<br />
+@ViewData["Data2"]
+<br />
+@ViewData["Data3"]
+<br />
+<br />
+<h5>Array Data Pass</h5>
+
+@{
+    foreach (string a in (string[])ViewData["Str"])
+    {
+        <p>@a</p>
+    }
+
+}
+<br />
+<h5>List Data </h5>
+@{
+    foreach (var item in (List<string>)ViewData["Lis"])
+    {
+        <p>@item</p>
+    }
+}
